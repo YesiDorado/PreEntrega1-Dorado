@@ -15,27 +15,35 @@ function numeroDeCuotas(producto, resultado,) {
                 {
                     let resultado = precioRascadorgato / i
                     alert(precioRascadorgato + " por " + i + "meses es=" + resultado);
+                    break;
                 }
             case 2:
                 {
                     let resultado = precioBolsaproplan / i
                     alert(precioBolsaproplan + " por " + i + "meses es=" + resultado);
+                    break;
                 }
             case 3:
                 {
                     let resultado = precioJuguetegato / i
                     alert(precioJuguetegato + " por " + i + "meses es=" + resultado);
+                    break;
                 }
             case 4:
                 {
                     let resultado = precioPelota / i
                     alert(precioPelota + " por " + i + "meses es=" + resultado);
+                    break;
                 }
             case 5:
                 {
                     let resultado = precioPlato / i
                     alert(precioPlato + " por " + i + "meses es=" + resultado);
+                    break;
                 }
+            default:
+                alert('Elegiste una opcion invalida');
+                break;    
         }
     }
 }
